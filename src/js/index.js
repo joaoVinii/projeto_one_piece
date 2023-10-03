@@ -15,7 +15,7 @@ a seleção dele
 a seleção dele 
 */
 
-const botoes = document.querySelectorAll('.botao')
+const botoes = document.querySelectorAll(".botao");
 
 const personagens = document.querySelectorAll(".personagem");
 
@@ -28,7 +28,7 @@ botoes.forEach((botao, indice) => {
         botao.classList.add("selecionado");
 
         personagens[indice].classList.add("selecionado");
-    })
+    });
 });
 
 
